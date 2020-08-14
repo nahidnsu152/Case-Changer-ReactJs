@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global Rules */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+li {
+    text-decoration: none;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(182, 187, 189);
+    color: black;
+}
+
+.text-area {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.text-area h1 {
+    font-weight: bolder;
+}
+
+.text-area p {
+    font-size: larger;
+}
+
+textarea[placeholder] {
+    text-align: center;
+}
+
+
+.btn-group{
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: #6c757d;
+    color: white;
+    border-color: #6c757d;
+    margin-right: 10px;
+  }
+  
+  .btn:hover {
+    color: #fff;
+    background-color: #23272b;;
+    border-color: #6c757d;
+  }
+  
